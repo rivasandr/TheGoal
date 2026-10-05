@@ -1,0 +1,58 @@
+Ficha Bibliografica
+The goal: a process of ongoing improvement, Goldratt, Eliyahu M., North River Press, 2004, 3rd Rev.Ed.
+Fechas Lectura
+Inicio 01/sept/2026
+Fin 06/sept/2026
+Tiempo Lectura: 6horas
+Topicos clave de The Goal 
+• El objetivo de cualquier negocio es ganar dinero, no eficiencia, ni calidad, ni cuota de mercado. Cada acción que te acerca a ese objetivo es productiva. Todo lo demás no lo es.
+• Una planta equilibrada es una planta en quiebra: intentar operar cada recurso al 100% de eficiencia genera inventario excedente y plazos de entrega más largos, no más producción.
+• El cuello de botella dicta la salida: una hora perdida en la restricción es una hora perdida para todo el sistema. Una hora guardada en una no restricción es un espejismo.
+• Reducir los tamaños de los lotes para reducir los plazos de entrega: los lotes más pequeños fluyen más rápido por la planta, reduciendo el inventario y mejorando el rendimiento en la entrega.
+• Los 5 pasos de enfoque (POOGI) - Identificar la restricción, explotarla, subordinar todo lo demás, elevar si es necesario, repetir. Este es el proceso de mejora continua.
+• La contabilidad de rendimiento sustituye a la contabilidad de costes: mide el rendimiento (T), el inventario (I) y el gasto operativo (OE). Aumentar la T tiene mucho más impacto que reducir la I o la OE.
+
+conceptos principales de la Teoría de las Restricciones:
+• Cuerda de Tambor: enfoque de la Teoría de las Restricciones para operaciones y planificación.
+• Contabilidad de Rendimiento - El enfoque de la Teoría de las Restricciones para la contabilidad y medidas que incluyen T, I y OE.
+• Flujo - Conceptos relacionados con el flujo y la planificación basada en flujos.
+
+Como llevar esto a la practica
+
+1. Métricas contables de rendimiento:
+   - Rendimiento (T) = Ingresos por ventas - Costes totalmente variables (TVCs).
+   - Inventario (I) = Todo el dinero invertido en bienes destinados a la venta / activos de capital.
+   - Gastos operativos (OE) = Todo el dinero gastado para convertir inventario en rendimiento.
+   * Maximizar la T tiene un impacto mucho mayor en el beneficio que minimizar I o OE.
+
+2. Los 5 pasos de concentración (POOGI):
+   1. Identificar las limitaciones del sistema.
+   2. Restricciones de explotación.
+   3. Subordinar todo lo demás.
+   4. Elevar las restricciones.
+   5. Repite (evita la inercia).
+
+3. Directrices de mejora continua:
+   - Las medidas impulsan el comportamiento: "Dime cómo me mides y te diré cómo me voy a comportar."
+   - Haz las preguntas correctas: Utiliza la metodología socrática para exponer las suposiciones subyacentes.
+   - Cuestionar las suposiciones: Replantear la contabilidad de costes tradicional y las métricas de eficiencia local.
+   - Enfoque en el sistema global: Los cálculos de costes del producto pueden ser engañosos; optimizar la rentabilidad de todo el sistema en lugar de las eficiencias departamentales.
+
+Relación Con otras obras
+Agilidad
+En el libro se presenta lo que creo es la descripción y aplicación práctica de servant leadership más antigua.
+Making Common Sense Common Practice de Ron Moore
+Aunque Eliyahu M. Goldratt escribió The Goal enfocado en la Teoría de Restricciones (TOC) y Ron Moore estructuró Making Common Sense Common Practice en torno al mantenimiento, la confiabilidad y la Efectividad General de los Equipos (OEE), ambas obras coinciden en principios fundamentales:
+1. La trampa de la eficiencia local
+•	En The Goal: Alex Rogo descubre que mantener todas las máquinas operando al 100% solo genera inventario en proceso (WIP) descontrolado y alarga los tiempos de entrega.
+•	En Moore: Mantener a los equipos de mantenimiento "siempre ocupados" o buscar máxima disponibilidad puntual en máquinas que no son restricciones no mejora la rentabilidad global. Moore enfatiza que la eficiencia local de mantenimiento sin visión sistémica es un espejismo de costos.
+2. El verdadero rol del cuello de botella (y la restricción)
+•	Goldratt: El throughput (rendimiento) de toda la planta está estrictamente limitado por la capacidad del cuello de botella.
+•	Moore: Las pérdidas de OEE (disponibilidad, rendimiento y calidad) duelen exponencialmente más cuando ocurren en los activos críticos o restrictivos del proceso. Mejorar el OEE en un activo no restrictivo no incrementa la capacidad vendible del sistema.
+3. La integración entre Operaciones y Mantenimiento
+•	TOC: Una parada no programada en una máquina cuello de botella causa una pérdida irreversible de throughput para toda la empresa.
+•	Moore: Demuestra que la confiabilidad operacional no es responsabilidad exclusiva de mantenimiento, sino un esfuerzo integrado entre producción, ingeniería y mantenimiento para proteger el flujo del valor.
+Aplicación a la Práctica Profesional
+La Teoría de Restricciones (TOC) sostiene que el rendimiento de un sistema de producción o servicios está limitado por un único cuello de botella o restricción. Para optimizar el flujo, se debe identificar este punto crítico, maximizar su capacidad sin generar costos adicionales, subordinar el ritmo de todas las demás etapas a su velocidad, elevar su capacidad operativa e iterar el proceso para prevenir nuevas ineficiencias.
+En proyectos de desarrollo de software o de consultoría profesional, los cuellos de botella se manifiestan como acumulación de trabajo en proceso (WIP) y dependencias de conocimiento, tales como fases de control de calidad o revisiones por parte de especialistas sénior. La aplicación práctica exige fijar límites de WIP para reducir el tiempo de ciclo, proteger el tiempo del personal clave ante tareas secundarias, estandarizar criterios operativos y alinear la entrega continua de valor con los ingresos del negocio.
+Como se sugiere en mejores practicas agiles los límites de trabajo en proceso (WIP limits) son el mecanismo operativo para subordinar todo el sistema a la capacidad del cuello de botella. Al restringir la cantidad de tareas simultáneas en cada etapa de un tablero kanban, se evita la acumulación de inventario invisible (como revisiones o pruebas pendientes), se visibilizan las obstrucciones en tiempo real y se fuerza al equipo a colaborar en liberar el flujo atascado antes de iniciar nuevo trabajo, reduciendo directamente el tiempo de ciclo (lead time).
