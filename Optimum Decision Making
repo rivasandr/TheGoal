@@ -50,3 +50,25 @@ Capitulo 5: 24/10/2026 Tiempo 1 hora
   Se habla del “presente estudio”, pero no se describe la muestra ni el método.
   No aparece ningún enfoque ágil. “Ágil y simple” se usa como adjetivo, no como práctica (retrospectivas, pairing, equipos multifuncionales).
   La tecnología que proponen se queda en intranet, correo y ontologías. Como el libro es de 2017, no se plantean asistentes de IA para capturar o consultar el conocimiento tácito.
+
+Capitulo 6 26/10/26 Gestión de activos para edificios en el marco del desarrollo de Building Information Modeling”, resumen con enfoque PMI/PMP 1 hora
+
+            La operación y el mantenimiento representan cerca del 60 % del coste de vida útil de un edificio, pero el BIM se usa casi solo en diseño y construcción. Según el NIST, la mala interoperabilidad entre sistemas cuesta 15.800 millones de dólares al año, y la mayor parte la asumen propietarios y operadores durante la operación.
+        
+        Los autores presentan el BIM como una base de datos compartida del edificio, más allá del modelo 3D. Describen las dimensiones de 3D a 7D (la 7D es la gestión de instalaciones), los niveles de detalle LOD y los estándares abiertos IFC y COBie, que permiten conectar el BIM con los sistemas de mantenimiento y de automatización. Enumeran beneficios y barreras: falta de evidencia, interoperabilidad, roles poco claros y resistencia cultural. Ambas listas casi coinciden, señal de que el campo está en una fase muy temprana.
+        
+        Siguiendo la ISO 55000, sitúan la gestión de instalaciones dentro de la gestión de activos y proponen el BIM como su sistema de información. Las normas PAS 1192-2 y 1192-3 ordenan la entrega: el modelo de información del proyecto (PIM) se convierte, al terminar la obra, en el modelo de información del activo (AIM).
+        
+        Desde el PMBOK, el aporte de fondo es que la transición a operación se diseña desde la conceptualización. Los requisitos de información para operar deberían tratarse como requisitos del proyecto, con criterios de aceptación propios. El equipo de mantenimiento debería participar desde el inicio y el beneficio en operación, figurar en el plan de beneficios. Así la herramienta del proyecto se convierte en un activo de la operación, y los datos ya pagados siguen generando valor durante décadas.
+        
+        Las limitaciones son claras. El capítulo no aporta un caso propio ni cuantifica beneficios. Tampoco aborda los incentivos desalineados de quien construye para vender ni quién es responsable de mantener actualizado el AIM. Además, las PAS 1192 fueron sustituidas después por la ISO 19650.
+
+Capítulo 7 26/10/26  “Servicio 4.0: razones y propósitos de la Industria 4.0 en el mantenimiento posventa”, resumen con perspectiva ágil y PMBOK -  1 hora
+
+    Muchos fabricantes de bienes de equipo ven la posventa como un centro de coste. Con márgenes cada vez menores en la venta de máquinas nuevas, puede convertirse en una fuente de ingresos recurrentes y de fidelización. A partir de entrevistas en 20 empresas del País Vasco, los autores adaptan el marco de Crespo (2007) en ocho fases: estrategia e indicadores, criticidad de componentes, causa raíz, combinación de tipos de mantenimiento, dimensionamiento de recursos, evaluación, coste de ciclo de vida (RAM-LCC) e innovación en servicios.
+    
+    La idea central conecta la tecnología con el valor. Los sensores y la monitorización remota solo se justifican en los componentes críticos, y su retorno viene de anticipar fallos y reducir el stock de repuestos. Las empresas se reparten en tres niveles de madurez: reactiva (55 %), de servicio (30 %) y de negocio (15 %). Una hoja de ruta progresiva marca el camino entre ellos.
+    
+    Desde el PMBOK, el marco es un buen ejemplo de gestión de beneficios: la inversión se prioriza por valor y riesgo, no por moda tecnológica. Pero la hoja de ruta es secuencial, casi en cascada. Primero se construye la base de datos y la innovación en servicios llega al final, con el riesgo de invertir años en capacidades que el cliente quizá no pague.
+    
+    Un enfoque ágil invertiría en parte esa lógica. Primero se formulan hipótesis de valor y se validan con experimentos baratos: informes de estado hechos a mano, un piloto sobre un solo componente o la prueba de distintos paquetes de servicio. Luego se invierte en la infraestructura que exige la oferta validada. Lo razonable es un enfoque híbrido: la oferta se valida en ciclos cortos y la base de datos se construye de forma planificada, priorizada por lo que el mercado ya aceptó. Los ciclos B2B son largos y hay contratos, como los de disponibilidad, que no se pueden probar sin limitar antes el riesgo.
