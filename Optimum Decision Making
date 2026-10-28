@@ -72,3 +72,51 @@ Capítulo 7 26/10/26  “Servicio 4.0: razones y propósitos de la Industria 4.0
     Desde el PMBOK, el marco es un buen ejemplo de gestión de beneficios: la inversión se prioriza por valor y riesgo, no por moda tecnológica. Pero la hoja de ruta es secuencial, casi en cascada. Primero se construye la base de datos y la innovación en servicios llega al final, con el riesgo de invertir años en capacidades que el cliente quizá no pague.
     
     Un enfoque ágil invertiría en parte esa lógica. Primero se formulan hipótesis de valor y se validan con experimentos baratos: informes de estado hechos a mano, un piloto sobre un solo componente o la prueba de distintos paquetes de servicio. Luego se invierte en la infraestructura que exige la oferta validada. Lo razonable es un enfoque híbrido: la oferta se valida en ciclos cortos y la base de datos se construye de forma planificada, priorizada por lo que el mercado ya aceptó. Los ciclos B2B son largos y hay contratos, como los de disponibilidad, que no se pueden probar sin limitar antes el riesgo.
+
+Capítulo 9: 28/10/26 -- 1 hora  “Modelo de un sistema de medición del desempeño para la gestión del mantenimiento” (Contreras, González-Prida, Parra, Kristjanpoller, Crespo Márquez y Viveros)
+        
+        Muchos departamentos de mantenimiento controlan su gestión con listas de indicadores aislados, casi siempre de resultado (disponibilidad y costes). Así no se ven las causas, y el personal no entiende para qué sirve lo que mide. Los autores revisan cinco marcos de referencia:
+        
+        Cuadro de mando integral (Kaplan y Norton).
+        Modelo de Alsyouf, que añade las perspectivas de sociedad, producción y mantenimiento.
+        Maintenance Scorecard de Mather, con tres niveles y seis perspectivas.
+        SMRP, con 67 indicadores en cinco pilares.
+        Norma EN 15341, con 71 indicadores económicos, técnicos y organizativos en tres niveles.
+        
+        Concluyen que ninguno relaciona a la vez los indicadores con los niveles jerárquicos y con las funciones.
+        
+        Su propuesta es un modelo jerárquico-funcional. Los niveles corporativo y estratégico usan el cuadro de mando integral, con indicadores de resultado. El nivel funcional mide los procesos de planificación, ejecución e ingeniería de mantenimiento con indicadores adelantados. El sistema propio suma 58 indicadores. Encima añaden el modelo C-KPI-M: 18 cadenas de causa y efecto que conectan los indicadores operativos con el valor económico añadido (EVA = beneficio operativo − activos operativos × coste medio del capital). Hay tres cadenas de fiabilidad, ocho de gestión del trabajo, seis de inventario y una de utilización. Un mismo indicador, como el cumplimiento del preventivo, puede ser adelantado o de resultado según dónde se mire en la cadena.
+        
+        Desde el PMBOK es uno de los capítulos más alineados: los autores piden aplicar formalmente la dirección de proyectos a las paradas de planta y miden los proyectos cerrados dentro de ±15 % del plazo. La lógica de indicadores adelantados y de resultado es la misma del control de proyectos.
+        Las cadenas causales se afirman, no se validan. No hay caso real, datos ni correlaciones que demuestren que, por ejemplo, más análisis de causa raíz aumente el EVA.
+        Los umbrales (±20 % en costes, ±15 % en plazo) no se justifican.
+        58 indicadores son demasiados para gestionar con agilidad y aumentan el riesgo de medir para cumplir en vez de para mejorar.
+
+Capítulo 1028/10/26 - 1hora  “Tecnologías de IA y estadística para el mantenimiento: monitorización de salud en actuadores electromecánicos”, resumen con enfoque PMBOK y ágil
+
+    En aeronáutica, los actuadores hidráulicos se están sustituyendo por electromecánicos (EMA), y añadirles monitorización de salud permite anticipar fallos. Los autores ensayan ocho engranajes en banco, entre sanos, rotos, desgastados y con abrasión artificial, y registran su vibración. Procesan la señal, extraen rasgos estadísticos y espectrales, definen tres niveles de daño mediante agrupamiento y entrenan trece clasificadores. Con ventanas de un segundo, varios clasificadores se acercan al 100 % de acierto.
+    
+    En síntesis, es una prueba de concepto de sensorización, sólida en el tratamiento de señales pero sin validación de campo. El 100 % probablemente está inflado por fuga de datos, porque se mezclan segmentos del mismo engranaje en entrenamiento y prueba. Además, las etiquetas salen del mismo agrupamiento, hay solo ocho piezas y una sola condición de operación, y el sensor elegido no forma parte del diseño del actuador.
+    
+    Desde el PMBOK, la primera carencia está en la definición del alcance. No queda claro qué se busca: detectar un fallo, clasificar su severidad o estimar la vida útil remanente. Tampoco se dice qué decisión concreta apoyará el sistema, ni para quién (técnico, aerolínea o fabricante), ni con qué umbral aceptable de falsas alarmas. Sin eso no se pueden fijar criterios de aceptación.
+    
+    Al cierre de esta etapa haría falta una puerta de fase basada en datos: validar con engranajes nunca vistos, más condiciones de operación y ensayos hasta la rotura. Solo si se supera tendría sentido diseñar el producto. Lo razonable sería un enfoque híbrido: iteraciones ágiles en banco y en entornos menos regulados, y luego desarrollo certificable con trazabilidad completa. El MVP podría ser un chequeo prevuelo de “apto / revisar” que registre datos y mida los falsos positivos.
+    
+    La conclusión de fondo es que la toma de decisiones basada en datos es el camino, siempre que la validación de esos datos sea tan rigurosa como el algoritmo.
+
+Capítulo 11 28/10/2026 --1 hora: “Toma de decisiones basada en sensores en contexto incierto”, resumen con encaje PMBOK
+
+    Cuando una decisión depende de una red de sensores, los errores de medición pueden venir del propio sensor, del entorno o de la arquitectura de la red. Esos errores producen falsas alarmas, fallos no detectados o ambigüedades. Los autores (Villeneuve, Beler, Pérès y González-Prida) proponen fusionar la información de varios sensores y expresar la confianza en el resultado. Distinguen varios tipos de imperfección en los datos: incompletitud, imprecisión, incertidumbre aleatoria o epistémica, ambigüedad y granularidad.
+    
+    Presentan cuatro formalismos, cada uno con un ejemplo:
+    
+    Redes bayesianas: localización de fallos en el cableado de un avión.
+    Modelo de creencias transferibles: representa explícitamente la ignorancia. Se aplica a la cobertura de redes inalámbricas.
+    Redes evidenciales dirigidas: inspección no destructiva de estructuras.
+    Deep Belief Networks: diagnóstico de motores.
+    
+    Una tabla los compara según los datos que necesitan, si modelan causalidad, su complejidad, la intervención humana y si pueden integrarse en sistemas embebidos.
+    
+    El encaje con el PMBOK es directo. La tipología de imperfecciones coincide con el dominio de incertidumbre del PMBOK 7: riesgo, ambigüedad y complejidad. El mensaje para la gestión es que decidir con datos implica decidir también cuánto confiar en ellos. Fijar el umbral de alarma según el coste de un falso negativo equivale a definir la tolerancia al riesgo. Eso exige establecer en la definición del alcance qué decisión apoyará el sistema y qué error es aceptable. El capítulo complementa además al anterior, donde un clasificador con 100 % de acierto no expresaba ningún margen de confianza.
+    
+    Las limitaciones son importantes. No hay evidencia propia: los ejemplos son de otros autores o están en curso, y los métodos no se comparan sobre los mismos datos. La tabla comparativa es cualitativa, la asignación de creencias por expertos queda sin calibrar y las Deep Belief Networks ya estaban superadas. Es un mapa útil para elegir método, no una guía validada.
