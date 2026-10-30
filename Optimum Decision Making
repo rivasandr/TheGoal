@@ -120,3 +120,36 @@ Capítulo 11 28/10/2026 --1 hora: “Toma de decisiones basada en sensores en co
     El encaje con el PMBOK es directo. La tipología de imperfecciones coincide con el dominio de incertidumbre del PMBOK 7: riesgo, ambigüedad y complejidad. El mensaje para la gestión es que decidir con datos implica decidir también cuánto confiar en ellos. Fijar el umbral de alarma según el coste de un falso negativo equivale a definir la tolerancia al riesgo. Eso exige establecer en la definición del alcance qué decisión apoyará el sistema y qué error es aceptable. El capítulo complementa además al anterior, donde un clasificador con 100 % de acierto no expresaba ningún margen de confianza.
     
     Las limitaciones son importantes. No hay evidencia propia: los ejemplos son de otros autores o están en curso, y los métodos no se comparan sobre los mismos datos. La tabla comparativa es cualitativa, la asignación de creencias por expertos queda sin calibrar y las Deep Belief Networks ya estaban superadas. Es un mapa útil para elegir método, no una guía validada.
+
+Capítulo 12: 30/10/26 -- 1 hora  “Planes de ciclo de vida del activo: doce pasos para apoyar la toma de decisiones estratégicas”, resumen crítico con enfoque PMBOK
+
+        Ruitenburg, Braaksma y van Dongen parten de que los métodos de mantenimiento cubren el corto plazo y las estimaciones de vida útil remanente cubren el final, mientras que el tramo intermedio queda sin gestionar. Para llenarlo proponen identificar “impactos de vida”: eventos o tendencias que pueden destruir o aumentar el valor del activo. La analogía es el Titanic, que no se hundió por falta de mantenimiento sino por un iceberg que nadie vio a tiempo. Los impactos se buscan desde cinco perspectivas (técnica, económica, de cumplimiento, comercial y organizativa) en sesiones de expertos, dentro de un proceso de doce pasos. El resultado es un Plan de Ciclo de Vida del Activo con acciones, responsables y revisión periódica, ilustrado con transformadores de la operadora neerlandesa Liander. El enfoque es práctico y valioso, aunque el coste es solo una de las cinco perspectivas y el foco está en el valor.
+        
+        Tiene, sin embargo, dos límites. El primero es que asume un dueño estable. Liander posee y opera sus activos durante décadas, pero en oil & gas un activo cambia de manos varias veces y cada operador lo gestiona por la duración de su concesión. El segundo es que el capítulo deja el horizonte de análisis a elección del destinatario. Así se confunden tres horizontes distintos: el financiero (recuperación de la inversión o concesión, 20–25 años), el de diseño y el misional, es decir, la capacidad real de cumplir la función, que en ductos, represas o centrales supera con creces los otros dos.
+        
+        Desde el PMBOK, la confusión se explica por la diferencia entre el ciclo de vida del proyecto y el del producto: el proyecto es una fase dentro de una vida mucho más larga. A lo largo de esa vida hay varios proyectos (construcción, reparaciones mayores, modernizaciones), lo que sitúa el plan en el nivel de programa y portafolio. Los impactos de vida equivalen a la gestión de riesgos de largo plazo: amenazas y oportunidades, un registro de riesgos, una lista de vigilancia y revisiones periódicas. El principio de stewardship del PMBOK 7 refuerza la crítica, porque obliga a pensar más allá del plazo propio. La solución al problema de las concesiones es contractual: condiciones de devolución, un valor residual exigido y la obligación de entregar al siguiente operador un plan de ciclo de vida actualizado.
+
+Capítulo 13:30-10-2026 --1 hora “Hacia decisiones de mantenimiento informadas: guía para aplicar análisis avanzados de mantenimiento” (Tiddens, Braaksma y Tinga)
+
+        Las técnicas avanzadas de mantenimiento (detección de anomalías, diagnóstico y pronóstico de vida útil remanente) permiten mantener justo a tiempo, reducir costes de ciclo de vida y evitar incidentes. Sin embargo, pocas empresas las aplican con éxito, y la causa principal es organizativa, no técnica.
+        
+        Los autores ordenan las técnicas en cinco niveles de madurez, según combinen datos, conocimiento experto y física del fallo:
+        
+        Basadas en experiencia.
+        Basadas en estadística de fiabilidad.
+        Basadas en factores de estrés, como la temperatura o la carga.
+        Basadas en la degradación medida por sensores.
+        Basadas en modelos físicos del mecanismo de fallo.
+        
+        A partir de 13 casos en nueve empresas holandesas proponen tres tipos de organización:
+        
+        Experiencers: se apoyan en la experiencia, hacen FMEA o RCM una sola vez y nunca cierran el ciclo de mejora.
+        Improvers: sienten la urgencia y prueban técnicas nuevas, pero con un proceso de prueba y error largo y costoso.
+        Predictors: trabajan con datos en tiempo real, invierten solo con un caso de negocio sólido y cuentan con la dirección como impulsora.
+        
+        Los distinguen cuatro factores: la necesidad percibida, el compromiso, los sistemas de información y la madurez de los procesos.
+        
+        La ruta propuesta tiene cuatro pasos: inicio del proyecto (componentes críticos y caso de negocio), monitorización y datos, selección de la técnica y decisión. Para el cambio cultural recurren a Kotter: urgencia, visión y victorias tempranas. Destacan la “distancia de pronóstico”, porque un aviso que llega sin margen para actuar no aporta valor.
+        
+        Lectura PMBOK: el modelo es esencialmente híbrido. La entrada es predictiva: caso de negocio y selección por criticidad y riesgo. La ejecución es adaptativa: varios pilotos, continuar solo los que demuestran valor y ciclos PDCA. Incluye además gestión explícita del cambio organizacional. Las limitaciones son que los hallazgos son preliminares, la muestra es pequeña y solo holandesa, y no hay métricas que cuantifiquen el beneficio de pasar de un nivel de madurez al siguiente.
+
