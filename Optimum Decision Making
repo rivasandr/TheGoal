@@ -51,7 +51,7 @@ Capitulo 5: 24/10/2026 Tiempo 1 hora
   No aparece ningún enfoque ágil. “Ágil y simple” se usa como adjetivo, no como práctica (retrospectivas, pairing, equipos multifuncionales).
   La tecnología que proponen se queda en intranet, correo y ontologías. Como el libro es de 2017, no se plantean asistentes de IA para capturar o consultar el conocimiento tácito.
 
-Capitulo 6 26/10/26 Gestión de activos para edificios en el marco del desarrollo de Building Information Modeling”, resumen con enfoque PMI/PMP 1 hora
+Capitulo 6 26/10/26 Gestión de activos para edificios en el marco del desarrollo de Building Information Modeling”,  1 hora
 
             La operación y el mantenimiento representan cerca del 60 % del coste de vida útil de un edificio, pero el BIM se usa casi solo en diseño y construcción. Según el NIST, la mala interoperabilidad entre sistemas cuesta 15.800 millones de dólares al año, y la mayor parte la asumen propietarios y operadores durante la operación.
         
@@ -104,7 +104,7 @@ Capítulo 1028/10/26 - 1hora  “Tecnologías de IA y estadística para el mante
     
     La conclusión de fondo es que la toma de decisiones basada en datos es el camino, siempre que la validación de esos datos sea tan rigurosa como el algoritmo.
 
-Capítulo 11 28/10/2026 --1 hora: “Toma de decisiones basada en sensores en contexto incierto”, resumen con encaje PMBOK
+Capítulo 11 28/10/2026 --1 hora: “Toma de decisiones basada en sensores en contexto incierto”, 
 
     Cuando una decisión depende de una red de sensores, los errores de medición pueden venir del propio sensor, del entorno o de la arquitectura de la red. Esos errores producen falsas alarmas, fallos no detectados o ambigüedades. Los autores (Villeneuve, Beler, Pérès y González-Prida) proponen fusionar la información de varios sensores y expresar la confianza en el resultado. Distinguen varios tipos de imperfección en los datos: incompletitud, imprecisión, incertidumbre aleatoria o epistémica, ambigüedad y granularidad.
     
@@ -152,4 +152,63 @@ Capítulo 13:30-10-2026 --1 hora “Hacia decisiones de mantenimiento informadas
         La ruta propuesta tiene cuatro pasos: inicio del proyecto (componentes críticos y caso de negocio), monitorización y datos, selección de la técnica y decisión. Para el cambio cultural recurren a Kotter: urgencia, visión y victorias tempranas. Destacan la “distancia de pronóstico”, porque un aviso que llega sin margen para actuar no aporta valor.
         
         Lectura PMBOK: el modelo es esencialmente híbrido. La entrada es predictiva: caso de negocio y selección por criticidad y riesgo. La ejecución es adaptativa: varios pilotos, continuar solo los que demuestran valor y ciclos PDCA. Incluye además gestión explícita del cambio organizacional. Las limitaciones son que los hallazgos son preliminares, la muestra es pequeña y solo holandesa, y no hay métricas que cuantifiquen el beneficio de pasar de un nivel de madurez al siguiente.
+
+Capítulo 14:15/11/26 1hora  “Apoyo informático a la toma de decisiones para la gestión energética en calefacción urbana”, 
+
+La energía puede superar la mitad de los costes operativos de una organización, y en la calefacción urbana las pérdidas en la red llegan al 5–20 % anual. Los autores (Shendryk, Aleksenko, Nenia y Parfenenko, de la Universidad Estatal de Sumy) presentan la gestión energética como parte de la gestión de activos y la enmarcan en la ISO 50001 y su ciclo PDCA. Repasan los modelos disponibles: simulación de la red, monitorización, previsión de la demanda, optimización y apoyo a la decisión. También señalan que el software comercial es caro y depende de medidores propietarios.
+
+Como alternativa presentan HeatCAM, un sistema web propio usado durante tres temporadas en su universidad. Combina monitorización de medidores y del clima, previsión diaria con redes neuronales (el mejor modelo tiene un error de entre 2 % y 3 %) y lógica difusa. Con ella clasifica el régimen de calefacción y recomienda al gestor energético si debe ajustarlo.
+
+Es el capítulo más práctico del libro: un sistema real, incremental y abierto, cercano a un MVP en funcionamiento. Desde el PMBOK, su principal carencia es que no demuestra beneficios. Cita la medición y verificación de ahorros, pero no informa cuánta energía o dinero se ahorró. La línea base energética de la ISO 50001 debería servir como línea base de beneficios, con indicadores de consumo, coste y CO₂, y con el gestor energético como responsable de esos beneficios.
+
+El alcance debería precisar qué decisión se apoya y cómo se equilibran confort, coste y emisiones, con criterios de aceptación medibles. El enfoque adecuado es híbrido: la temporada de calefacción marca el ciclo de aprendizaje, y el despliegue escala por portafolio, de un edificio piloto al resto. Entre los interesados faltan los ocupantes y la empresa de calefacción. La validación se limita a un campus y no se compara con un modelo de referencia sencillo. Falta también definir quién mantendrá y reentrenará el sistema después del proyecto.
+
+Capítulo 15:15/11/26   1 hora  “Riesgos e incertidumbres en la fase de planificación de proyectos eólicos marinos”
+
+Van der Wal, Eecen y Veldman estudian los parques eólicos marinos como megaproyectos, en el tramo que va desde la decisión del gobierno hasta la decisión final de inversión (FID). Entrevistaron con método Delphi a 26 expertos holandeses y proponen un marco con puertas de decisión. Identifican diez riesgos, encabezados por la mala gestión de interfaces, la falta de intercambio de información, la incorporación tardía de actores y los permisos lentos. Suman siete incertidumbres, entre ellas el retorno de la inversión, los equipos de largo plazo de entrega y los cambios de gobierno. Describen además un “juego del rompecabezas”, en el que nadie quiere comprometerse primero, y comparan dos estructuras: financiación con balance propio y financiación de proyecto.
+
+El capítulo confirma desde la evidencia lo que señalabas en oil & gas. Los proyectos se venden, los desarrolladores desaparecen y los nuevos dueños heredan decisiones sin explicación. La financiación de proyecto es cortoplacista y trabaja con equipos rotativos, frente a la visión de largo plazo de quien diseña, posee y opera el activo. El propio análisis termina en la FID, aunque el activo vive décadas más, lo que reproduce la confusión entre el horizonte del proyecto y la vida del activo.
+La importancia de cada riesgo se mide por cuántos expertos lo mencionaron, no por su probabilidad e impacto. No hay responsables, estrategias de respuesta ni reservas de contingencia. Solo se consideran amenazas, sin oportunidades. Además, se define la incertidumbre como algo imposible de medir, cuando el PMBOK la trata como un espacio que se gestiona con exploración, opciones y resiliencia. Es una lista de problemas, no un registro de riesgos.
+
+Las puertas de decisión equivalen a las revisiones de fase del PMBOK, y se reconoce que en la práctica las fases se solapan e iteran.
+Hay gran alineacion con Lecciones aprendidas donde los autores denuncian que cada proyecto se trata como aislado y que las lecciones quedan en manuales internos. Es la gestión del conocimiento del proyecto que pide el PMBOK. Me parece clave  la recomendación central es involucrar pronto a los actores clave.
+
+Limitaciones: la muestra es solo holandesa, faltan rondas Delphi y nada está cuantificado.
+
+Capítulo 16: 16/11/26 1 hora “El proceso de set-up” (Rodríguez Méndez y Cárcel-Carrasco)
+
+El set-up (preparación o cambio de formato) reúne las operaciones para adaptar una máquina o línea a un producto nuevo. Su tiempo va desde que sale la última pieza del producto anterior hasta que se fabrica la primera del siguiente. Los autores discuten la visión clásica que lo trata como una “operación de despilfarro” y lo presentan como un proceso con valor propio: mide la flexibilidad de la planta, condiciona el tamaño de lote económico y permite adaptar la máquina al mercado, lo que retrasa su obsolescencia y evita invertir en equipos nuevos.
+
+Repasan la evolución histórica, de la producción masiva de Ford a SMED y OTED de Shingo, y la distinción entre operaciones internas (con la máquina parada) y externas (con la máquina en marcha). Identifican cinco variables (diseño de la máquina, trabajadores, producto, organización y seguridad) y tres tipos de set-up: cambio de formato, cambio de producto y cambio de presentación. Señalan que los ajustes pueden ocupar hasta la mitad del tiempo en procesos sin control. Su metodología tiene diez pasos: estudiar el proceso, protocolizar, externalizar la preparación, equilibrar cargas, descomponer en micro-operaciones, identificar las operaciones críticas con PERT, reducir tiempos, repetir el ciclo y auditar.
+
+Desde una perspectiva PMBOK la descomposición en micro-operaciones se parece a una EDT. El uso de PERT y ruta crítica viene de la gestión del cronograma. Los ciclos de mejora con auditorías equivalen a la gestión de calidad y al PDCA, y los protocolos actualizados funcionan como lecciones aprendidas. La participación de los trabajadores es involucramiento de interesados.
+Sin emabrgo se observa un error técnico; la estimación de tres valores está mal aplicada. El PERT estándar pondera por cuatro el valor más probable, pero los autores ponderan el optimista. Además, los tres valores salen de sumar partes de la misma operación, no de estimaciones independientes.
+Por otro lado  no hay caso de estudio ni resultados medidos. Los autores llegan a desaconsejar el análisis estadístico, lo que choca con la toma de decisiones basada en datos. Esto es lo mas negativo del capitulo en un libro orientado a la toma de decisiones.
+Finalmente el vínculo con la gestión de activos es minimo; es un capítulo de lean manufacturing. Su mejor aporte al libro es que el diseño de la máquina debe pensar en el set-up, la misma lógica de diseñar para la operación que vimos en los capítulos 6 y 7.
+
+Capítulo 17: 16/11/26 1 hora “Gestión de activos y control de riesgos” (Eguren Martí, Universidad de Barcelona)
+
+A diferencia del resto del libro, aquí “activos” significa activos fijos en su dimensión contable y financiera, no la gestión física de la ISO 55000. A partir de escándalos como Enron y WorldCom, la autora presenta el control interno según COSO como un sistema hecho de personas que da una seguridad razonable sobre las operaciones, la información financiera y el cumplimiento. Sus elementos son riesgos, controles, evidencia, roles y procedimientos escritos. Cada control debe tener un dueño, quien lo ejecuta y quien lo revisa, además de objetivo SMART, alcance, evidencia y frecuencia. Recomienda priorizar los controles preventivos sobre los detectivos.
+
+Para que el control genere valor y no burocracia, lo vincula a la cadena de valor de Porter. Mapea los riesgos de cuatro procesos (adquisición, registro contable, baja y custodia) y desarrolla un ejemplo práctico bajo la ley SOX: alcance por materialidad, controles típicos, implantación y seguimiento con autoevaluación, remediación y auditoría externa. Entre los controles típicos figuran las aprobaciones, la vida útil y la depreciación, el traspaso de obra en curso a activo, el inventario físico, el deterioro y la segregación de funciones. Cierra con la “voz de la dirección” (tone at the top) y la sostenibilidad del sistema.
+
+Al leer esto desde una perspectiva PMBOK lo relevante es que cada control tiene un dueño, quien lo ejecuta y quien lo revisa. Es la definición de responsabilidad que falta en el capítulo 3.
+Por otra parte se enfoca en controles preventivos vs inspeccion expost lo que es un principio de la gestión de calidad del PMBOK.
+Cierre del proyecto en contabilidad: el traspaso de obra en curso a activo es la cara contable del cierre del proyecto y la transición a operaciones. El seguimiento del gasto de capital frente al presupuesto equivale al control de costes. Es la primera vez que veo una declaracion tan limpia de proyecto en el campo contable.
+La autora reconoce que el riesgo puede ser una oportunidad, pero solo trabaja con amenazas financieras. No usa probabilidad, impacto, estrategias de respuesta ni reservas. Es control de cumplimiento, no gestión de riesgos en el sentido del PMBOK.
+
+La limitaciones principales que no conecta la vida útil contable con la vida técnica o la misión del activo.
+
+Capítulo 18:16/11/2026 1 hora  “Mantenimiento basado en fiabilidad de activos industriales” (Syamsundar, planta siderúrgica de Visakhapatnam, India)
+
+El autor parte de que la mayoría de las decisiones de mantenimiento todavía se toman por experiencia. Propone combinar dos herramientas conocidas pero poco usadas juntas: el mantenimiento centrado en fiabilidad (RCM), que es cualitativo, y los modelos estadísticos de sistemas reparables. El RCM aporta el análisis de modos de fallo y sus consecuencias (ocultas, de seguridad, operativas u otras) y una lógica de decisión. Los modelos (procesos de Poisson homogéneo y no homogéneo, y de renovación, ajustados por máxima verosimilitud y comparados con el criterio AIC) aportan la frecuencia de las tareas a partir de datos reales.
+
+El caso es el de cuatro cajas reductoras de traslación de un puente grúa ( que asume identicas e independientes ) , con seis años y medio de historial de fallos. El análisis muestra que los ejes intermedio y de salida se están deteriorando. Además, fallan más que el eje de entrada, al contrario de lo esperado, lo que justifica un análisis de causa raíz. Con el tiempo en que la fiabilidad cae a 0,9 (15 a 32 días según el eje, pero no justifica el umbral 0,9 en costos o en algo), el autor fija inspecciones quincenales o mensuales. Como la grúa puede seguir operando con una caja desconectada, mantiene como estrategia principal reparar al fallar. El nuevo plan se integró en el sistema de gestión de mantenimiento, junto con la planificación de repuestos, y el cálculo se repetirá cada seis meses.
+
+
+Aqui la toma de decisiones esta basada en datos frente a las reglas fijas del capítulo 4. Los intervalos salen de modelos ajustados a datos reales.
+Adicionalmente los resultados se revisaron con operadores y mantenedores, y el plan pasó al sistema de gestión de mantenimiento, lo que formaliza la transición a operaciones. Se entrega un proceso de mejora continua: el recálculo semestral funciona como una iteración de aprendizaje permite a operaciones optimizar su tarea.
+
+Sin resultado medido: no compara fallos, paradas ni costes antes y después del nuevo plan.
+Nivel de madurez bajo: en la escala del capítulo 13, el método se sitúa en el nivel de estadística de fiabilidad. El propio autor reconoce que el RCM es estático.
 
