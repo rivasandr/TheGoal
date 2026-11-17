@@ -1,0 +1,173 @@
+Resumen ejecutivo – Choose Your WoW!  Lectura 17/11/2026
+  
+  Resumen ejecutivo
+El libro sostiene que cada equipo debe elegir y evolucionar su propia forma de trabajar (WoW, way of working), y ofrece Disciplined Agile Delivery (DAD) como caja de herramientas para decidir bien en cada contexto, sin imponer un marco único.
+Mensajes clave para un gestor de proyectos:
+1.	El contexto manda. No hay "mejores prácticas" universales: cada práctica tiene ventajas y desventajas según el tamaño del equipo, la regulación, la distribución geográfica o la complejidad técnica.
+2.	Mejores decisiones llevan a mejores resultados. DA hace explícitas las decisiones de proceso (puntos de decisión, opciones y trade-offs) para "aprender rápido y acertar antes" en lugar de "fallar rápido".
+3.	El objetivo son los resultados de negocio, no "ser ágil" ni "hacer ágil". Hace falta mentalidad ágil y, además, las habilidades para ejecutar en un entorno empresarial.
+4.	Seis ciclos de vida, un mismo gobierno. Los equipos pueden trabajar de formas distintas (Scrum, Kanban, entrega continua, Lean Startup, programa) y aun así ser gobernados de forma consistente mediante hitos ligeros basados en riesgo.
+5.	24 objetivos de proceso cubren todo el ciclo: Inicio (Inception), Construcción, Transición y actividades continuas. Funcionan como checklist y como guía de mejora.
+6.	Gobierno con autoorganización. Los equipos se autoorganizan dentro de "barandillas" organizacionales, con conciencia de empresa (reutilizar activos, alinearse con arquitectura, finanzas, seguridad).
+7.	Mejora continua guiada (GCI). Experimentos pequeños (ciclo PDSA) guiados por el catálogo de opciones de DA mejoran más rápido que la mejora continua "a ciegas" o que adoptar un marco prescriptivo y estancarse.
+8.	Los roles tradicionales no desaparecen de golpe. El libro valora la experiencia del PM en riesgos, estimación y planificación de releases, y propone una transición evolutiva hacia roles como team lead o product owner.
+Expectativas realistas: los autores citan mejoras promedio de productividad de 7–12 % en equipos ágiles pequeños y de 3–5 % a escala, lejos de las promesas de "10x". No hay balas de plata.
+Estructura del libro
+Choose Your WoW! A Disciplined Agile Approach to Optimizing Your Way of Working, 2.ª ed., de Scott W. Ambler y Mark Lines (PMI, 2022), 137 páginas. Es la fuente oficial de DAD y guía de estudio para la certificación Disciplined Agile.
+Cap.	Título	Idea central
+1	Choosing Your WoW!	Por qué los equipos deben elegir su WoW y cómo usar DA: referencia contextual, mejora continua guiada, talleres de adaptación, retrospectivas y coaching.
+2	Being Disciplined	Mentalidad DA: Manifiesto Ágil, principios Lean, 8 principios, 7 promesas y 8 directrices.
+3	DAD in a Nutshell	Qué es DAD: híbrido, ciclo completo, varios ciclos de vida, soluciones consumibles, escalado táctico.
+4	Roles, Rights, and Responsibilities	Cinco roles primarios, cinco de apoyo, derechos y responsabilidades, adaptación de roles tradicionales.
+5	Process Goals	Enfoque orientado a objetivos: 24 objetivos, diagramas de decisión y tablas de opciones.
+6	Choosing the Right Life Cycle	Seis ciclos de vida, criterios de selección, hitos comunes y rutas de evolución.
+7	Disciplined Success	Cierre: DA como ágil para la empresa, uso del DA Browser y certificación.
+Mentalidad Disciplined Agile
+La mentalidad DA se resume así: creemos en 8 principios, por eso nos comprometemos con 7 promesas y seguimos 8 directrices. Combina el Manifiesto Ágil con el pensamiento Lean, que el libro considera imprescindible en la empresa.
+Principios (creemos)	Promesas (nos comprometemos a)	Directrices (seguimos)
+Deleitar a los clientes	Crear seguridad psicológica y abrazar la diversidad	Validar nuestros aprendizajes
+Ser increíbles (be awesome)	Acelerar la realización de valor	Aplicar design thinking
+El contexto cuenta	Colaborar de forma proactiva	Cuidar las relaciones a lo largo del flujo de valor
+Ser pragmáticos	Hacer visible todo el trabajo y el flujo	Crear entornos efectivos que fomenten la alegría
+La elección es buena	Mejorar la predictibilidad	Cambiar la cultura mejorando el sistema
+Optimizar el flujo	Mantener la carga dentro de la capacidad	Crear equipos semiautónomos y autoorganizados
+Organizarse en torno a productos/servicios	Mejorar continuamente	Adoptar métricas para mejorar resultados
+Conciencia de empresa (enterprise awareness)	—	Aprovechar y mejorar los activos organizacionales
+Por qué el Manifiesto Ágil no basta: se limita al software, refleja el entorno de los años 90 (hoy se entrega varias veces al día) y no integra lo aprendido de Lean y DevOps.
+Los 7 principios Lean que adopta: eliminar desperdicio (sobre todo las demoras en el flujo), construir calidad desde el inicio, crear conocimiento, diferir compromisos al último momento responsable, entregar rápido limitando el trabajo a la capacidad, respetar a las personas y optimizar el todo.
+Filosofías prácticas: si algo es difícil o da miedo, hazlo más seguido (integración, feedback); pregunta "por qué" hasta llegar a la causa raíz; aprende algo cada día.
+Contexto (Situation Context Framework): cuanto más a la derecha está un equipo en cada factor (habilidades bajas, equipo grande, distribuido, regulación crítica, tercerización), mayor riesgo enfrenta y más debe adaptarse su forma de trabajar y de ser gobernado.
+DAD en síntesis
+DAD es la parte de entrega del kit Disciplined Agile: un enfoque híbrido, centrado en las personas y orientado al aprendizaje, no "otra metodología". Si un equipo usa Scrum, XP o Kanban, ya usa un subconjunto de DAD.
+Rasgos que lo definen:
+•	Personas primero: roles, derechos y responsabilidades adaptables.
+•	Híbrido: integra ideas de Scrum, XP, Kanban, SAFe, Spotify, Agile Modeling, Unified Process, Lean, DevOps, PMBOK y enfoques tradicionales.
+•	Ciclo de entrega completo: desde la formación del equipo hasta la puesta en producción.
+•	Varios ciclos de vida: seis opciones, no uno impuesto.
+•	Completo: muestra cómo encajan requisitos, arquitectura, pruebas, documentación, gestión y gobierno.
+•	Sensible al contexto: orientado a objetivos, con alternativas y trade-offs explícitos.
+•	Soluciones consumibles sobre software que funciona.
+•	Autoorganización con gobierno apropiado.
+Solución consumible: no basta con que funcione; debe ser usable y deseable. Y la solución no es solo software: puede incluir hardware, procesos de negocio, estructura organizacional y documentación de soporte.
+DA en cuatro capas: Fundamentos → Disciplined DevOps (incluye DAD) → Flujo de valor (DA FLEX) → Disciplined Agile Enterprise.
+Terminología equivalente (selección):
+DAD	Scrum	Tradicional
+Team lead	Scrum master	Project manager
+Product owner	Product owner	Comité de control de cambios (CCB)
+Architecture owner	—	Arquitecto de solución
+Reunión de coordinación	Daily standup	Reunión de estado
+Iteración	Sprint	Timebox
+Stakeholder	—	Stakeholder
+Escalado táctico: DAD distingue la agilidad a escala táctica (aplicar ágil a fondo en cada equipo) de la estratégica (en toda la organización). Los factores de escalado táctico son tamaño del equipo, distribución geográfica, complejidad del dominio, complejidad técnica de la solución, distribución organizacional (p. ej. tercerización), cumplimiento normativo y disponibilidad de habilidades. Cuanto más extremo cada factor, mayor el riesgo. DAD responde con un ciclo de vida riesgo-valor (atacar primero lo más riesgoso), gobierno efectivo y conciencia de empresa.
+Cómo empezar: leer el libro, formarse, partir de un método existente (Scrum, SAFe) y salir de la "cárcel del método", o empezar directamente con DAD, idealmente con un coach con experiencia. No hace falta un cambio "big bang".
+Roles, derechos y responsabilidades
+DAD propone cinco roles primarios y cinco de apoyo como punto de partida; adaptarlos es posible, pero cuanto más se alejan del modelo, más riesgo asume el equipo.
+Rol	Tipo	Qué aporta
+Team lead	Primario	Líder servidor: facilita, protege al equipo, remueve impedimentos y lo guía en elegir su WoW. Puede ser senior scrum master, project manager o gerente funcional.
+Product owner	Primario	"Una sola voz" de los stakeholders: identifica y prioriza el trabajo y aclara necesidades.
+Architecture owner	Primario	Líder técnico: guía decisiones de arquitectura y diseño, alinea con la arquitectura empresarial y gestiona deuda técnica y riesgo técnico.
+Team member	Primario	Construye la solución; idealmente "especialista generalista" (perfil en T).
+Stakeholder	Primario	Toda persona afectada materialmente: usuarios, operaciones, soporte, finanzas, auditores, patrocinador, etc.
+Especialista	Apoyo	UX, seguridad, analista de negocio, program manager en equipos grandes.
+Tester independiente	Apoyo	Pruebas fuera del equipo por regulación o integración compleja.
+Experto de dominio	Apoyo	Conocimiento profundo del negocio (SME).
+Experto técnico	Apoyo	Ayuda puntual en un reto técnico y transfiere conocimiento.
+Integrador	Apoyo	Integra subsistemas y apoya pruebas de integración en equipos grandes.
+Triunvirato de liderazgo: el product owner busca construir el producto correcto, el architecture owner construirlo bien y el team lead construirlo rápido. Si se descuida uno, el resultado es un producto equivocado, de baja calidad o que tarda demasiado.
+Responsabilidades del team lead (relevantes para el PM): guiar la elección y evolución del WoW, facilitar la colaboración, escalar impedimentos organizacionales, proteger al equipo de interrupciones y facilitar decisiones sin imponerlas. En equipos de proyecto puede asumir además presupuesto, reportes a la dirección (idealmente con tableros automatizados), obtención de recursos y evaluación del equipo; esto último puede reducir la seguridad psicológica.
+Derechos del equipo (selección): ser tratado con respeto, trabajar en un entorno seguro, elegir y evolucionar su WoW, autoorganizarse y estimar su propio trabajo, recibir decisiones e información oportuna. Responsabilidades: optimizar el WoW, colaborar y compartir información (incluido el trabajo en curso), validar el trabajo temprano, ampliar habilidades y mantener todo el trabajo visible.
+El project manager en DAD: el libro rechaza eliminar de golpe los roles tradicionales; los PM dominan gestión de riesgos, estimación y planificación de releases. Propone una transición evolutiva: el PM suele pasar a team lead o product owner. Advertencia clave: asignar tareas y supervisar a las personas anula la autoorganización; el PM que cambia el comando y control por liderazgo encaja bien en el rol.
+Los 24 objetivos de proceso
+Cada objetivo describe un resultado de proceso (qué lograr), no cómo lograrlo: todos los equipos los abordan, cada uno a su manera. La adaptación debería tomar horas, no días.
+Fase	Propósito	Objetivos
+Inicio (Inception)	Arrancar el equipo en la dirección correcta	Formar el equipo · Alinearse con la dirección empresarial · Explorar el alcance · Identificar la estrategia de arquitectura · Planificar la release · Desarrollar la estrategia de pruebas · Desarrollar una visión común · Asegurar el financiamiento
+Construcción	Construir incrementalmente una solución consumible	Probar la arquitectura temprano · Atender necesidades cambiantes de stakeholders · Producir una solución potencialmente consumible · Mejorar la calidad · Acelerar la entrega de valor
+Transición	Liberar la solución a producción	Asegurar la preparación para producción · Desplegar la solución
+Continuos	Mejorar y trabajar con conciencia de empresa	Desarrollar a los miembros del equipo · Coordinar actividades · Abordar el riesgo · Evolucionar el WoW · Aprovechar y mejorar la infraestructura existente · Gobernar el equipo · Gestionar la entrada de trabajo · Organizar métricas · Medir resultados
+Cómo se describen (cuatro niveles de detalle):
+1.	Objetivo de proceso: el resultado con nombre; da un lenguaje común entre equipos.
+2.	Diagrama de objetivo: puntos de decisión y opciones para cada uno. Una flecha indica lista ordenada (arriba lo más efectivo, una ruta de mejora); las opciones en negrita cursiva son buenos puntos de partida.
+3.	Tablas de opciones: cada práctica con sus trade-offs (disponibles en el DA Browser).
+4.	Descripciones de prácticas: referencias a artículos, libros y formación.
+Ejemplo – Explorar el alcance: decide propósito (mapa de impacto, canvas de propuesta de valor), uso (historias, mapas de historias, casos de uso), dominio, proceso, UX, requisitos generales y de calidad (criterios de aceptación, lista explícita, historias técnicas), estrategia de modelado, tipo de backlog y nivel de detalle del documento de alcance. DAD recomienda una lista de ítems de trabajo (requisitos, defectos, formación, revisiones) en lugar de un backlog solo de requisitos.
+Usos prácticos: identificar experimentos de mejora, enriquecer retrospectivas, usar como checklist, guiar talleres de adaptación, servir de modelo de madurez por punto de decisión y discutir opciones con argumentos. Ante la queja de complejidad, los autores preguntan: ¿qué objetivo eliminarías? Ignorar el riesgo o la calidad suele salir caro.
+Los seis ciclos de vida y cómo elegir
+DAD ofrece seis ciclos de vida; el equipo elige el que mejor refleja su contexto y suele evolucionar de uno a otro. El ciclo tradicional (en cascada o modelo V) se reconoce pero no se soporta, salvo en pocos casos: bajo riesgo, trabajo ya conocido y equipo con perfil tradicional.
+Ciclo de vida	Base	Cuándo encaja	Fases
+Ágil	Scrum ("Scrum++")	Proyectos con release única; iteraciones de 2 semanas o menos	Inicio, Construcción, Transición
+Lean	Kanban	Necesidades que cambian rápido, mantenimiento de sistemas legados, equipos tradicionales que quieren cambiar con poca disrupción	Inicio, Construcción, Transición
+Entrega continua: Ágil	Scrum	Equipos estables; release al final de cada iteración (1 semana o menos)	Solo Construcción; Transición automatizada
+Entrega continua: Lean	Kanban	Equipos estables y maduros; varias releases al día con feature toggles	Solo Construcción; Transición automatizada
+Exploratorio	Lean Startup / design thinking	No se sabe qué quiere el cliente; problemas "retorcidos"; MVPs, pruebas A/B, PoC en paralelo	Experimentos; luego otro ciclo para el producto real
+Programa	Equipo de equipos	Iniciativas grandes; subequipos que eligen su propio ciclo	Inicio, Construcción, Transición
+Datos de referencia: el equipo ágil/lean promedio dedica 11 días hábiles al Inicio y 6 a la Transición (8,5 si se excluyen los equipos con pruebas y despliegue totalmente automatizados).
+Factores de selección: habilidades del equipo (la entrega continua exige más disciplina técnica), cultura del equipo y de la organización (flexible o rígida), naturaleza del problema (se puede descomponer en incrementos pequeños o no) y restricciones del negocio (disponibilidad de stakeholders, flexibilidad de financiamiento).
+Tendencias "shift left / shift right": pruebas, calidad, despliegue y feedback de stakeholders se mueven hacia el inicio; modelado, planificación e interacción con stakeholders se extienden a lo largo de todo el ciclo. El destino natural es la entrega continua.
+Programa (equipo de equipos): la coordinación ocurre en tres niveles: trabajo (product owners), arquitectura (architecture owners) y personas (team leads). Puede haber subequipos por funcionalidad o por componente, e integración y pruebas cruzadas en paralelo, idealmente automatizadas. Si un equipo pequeño aún no domina ágil, no está listo para un programa ágil.
+ 
+elección del ciclo de vida · 4 preguntas, 5 resultados (simplificado del diagrama del libro)
+Dentro de la rama de proyecto, el libro reserva Serial para trabajo de bajo riesgo ya conocido con un equipo de perfil tradicional, y elige Lean ante requisitos muy cambiantes.
+Rutas de evolución habituales: de serial a Ágil o a Lean (1–2 meses con apoyo de formación y coach), y de ahí a Entrega continua (3–6 meses). Empezar con Ágil es más disruptivo pero rápido; empezar con Lean es menos disruptivo pero puede mejorar más lento si el tablero sigue reflejando silos.
+Gobernanza: hitos comunes basados en riesgo
+Se puede gobernar de forma consistente sin imponer un proceso común: basta con hitos ligeros, basados en riesgo (no en entregables documentales), compartidos por todos los ciclos de vida. Lo que importa repetir son los resultados, no los procesos.
+ 
+hitos de gobierno · 6 hitos sobre las fases
+Los rombos huecos marcan los puntos de viabilidad continua, opcionales y repetibles; en los ciclos de entrega continua, visión y arquitectura ya se resolvieron en el pasado.
+Hito	Fase	Pregunta de gobierno
+Visión de stakeholders	Fin del Inicio	¿Hay acuerdo sobre alcance, tecnología, cronograma, presupuesto y riesgos para continuar? (suele revisarse con unas pocas láminas)
+Arquitectura probada	Construcción temprana (1–3 iteraciones)	¿Se mitigaron los riesgos técnicos con un esqueleto funcional de extremo a extremo?
+Viabilidad continua (varios, opcional)	Construcción	¿Sigue el equipo alineado con la visión? ¿Ajustar financiamiento, equipo, alcance o cancelar? Mejor aún: liberar más seguido.
+Funcionalidad suficiente	Fin de Construcción	¿Hay un incremento mínimo de negocio (MBI) y se justifica el costo de la transición?
+Listo para producción	Transición	¿Están completas conversión de datos, pruebas de aceptación y documentación de soporte? (en entrega continua se verifica de forma automatizada)
+Stakeholders encantados	Después del despliegue	¿Se logró el beneficio esperado? Se mide con métricas de realización de beneficios.
+MVP vs. MBI: un MVP sirve para aprender si una idea es viable; un MBI es el menor incremento que entrega valor real al cliente y se compone de una o más funcionalidades mínimas comercializables (MMF).
+Por qué le sirve a una PMO: las fases Inicio–Construcción–Transición son familiares para las PMO, lo que permite introducir el cambio de gobierno de forma gradual ("libertad estructurada") en vez de un choque frontal.
+Mejora continua guiada, talleres y acuerdos de trabajo
+La mejora continua guiada (GCI) es el motor de DA: experimentos pequeños, elegidos con ayuda del catálogo de opciones, que tienen más probabilidad de funcionar y aceleran la mejora del equipo.
+Por qué no basta un marco prescriptivo: adoptar Scrum o SAFe produce una caída inicial, luego una mejora y después un estancamiento cuando aparecen problemas que el marco no cubre ("cárcel del método"). Combinar un marco inicial con GCI permite seguir mejorando.
+Ciclo de un experimento (PDSA de Deming):
+1.	Planificar: identificar el problema y posibles soluciones (con DA como referencia).
+2.	Hacer: probar la solución; se pueden correr varios experimentos en paralelo si no se afectan entre sí.
+3.	Estudiar: evaluar la efectividad contra resultados claros (GQM u OKR).
+4.	Actuar: adoptar lo que funciona, abandonar lo que no y compartir lo aprendido.
+A nivel organizacional, el libro recomienda Lean Change: hipótesis, opciones y cambios mínimos viables (MVC) que se introducen, se miden y se mantienen o descartan.
+Cinco formas de aplicar DA en el día a día: referencia de procesos contextualizada, GCI, talleres de adaptación de procesos, retrospectivas enriquecidas y coaching ampliado.
+Taller de adaptación de procesos (equipos nuevos): varias sesiones cortas, agenda clara, todo el equipo invitado, facilitador con experiencia y espacio flexible. Decide:
+•	derechos y responsabilidades;
+•	estructura del equipo;
+•	ciclo de vida;
+•	prácticas y estrategias;
+•	definición de listo (DoR) y de terminado (DoD);
+•	herramientas.
+Lecciones de campo: el líder o el AO pueden representar al equipo al inicio, una hoja de cálculo simple ayuda a registrar decisiones, conviene fijar decisiones inmediatas y metas aspiracionales, definir pocas decisiones a nivel empresa para dar consistencia y partir de las elecciones de un equipo similar.
+Documentar el WoW (por regulación, complejidad o comodidad): de forma concisa, con una hoja de cálculo de decisiones, un A3, pósters o una wiki. El acuerdo de trabajo tiene una parte interna (cómo trabaja el equipo) y una externa, que funciona como acuerdo de nivel de servicio: reuniones abiertas, acceso al tablero, contacto y propósito del equipo.
+Aplicación en la práctica de gestión de proyectos
+Esta lista traduce las ideas del libro a acciones concretas para un gestor de proyectos; es una síntesis propia, no un listado del libro.
+Al iniciar un proyecto (Inicio)
+•	☐ Evaluar el contexto con los factores de escalado: tamaño, distribución, complejidad, regulación, tercerización y habilidades.
+•	☐ Elegir el ciclo de vida con el equipo (usar el flujo de decisión), no imponerlo desde la PMO.
+•	☐ Facilitar un taller de adaptación: roles, ciclo de vida, prácticas, DoR/DoD y herramientas.
+•	☐ Recorrer los 8 objetivos de Inicio como checklist: equipo, alineación empresarial, alcance, arquitectura, plan de release, estrategia de pruebas, visión y financiamiento.
+•	☐ Mantener el Inicio corto (referencia: unas 2 semanas) y cerrarlo con el hito de visión de stakeholders.
+•	☐ Redactar el acuerdo de trabajo interno y externo.
+Durante la ejecución (Construcción)
+•	☐ Atacar primero el trabajo técnicamente riesgoso y validar la arquitectura en 1–3 iteraciones.
+•	☐ Gestionar una lista de ítems de trabajo (no solo requisitos): defectos, deuda técnica, formación, revisiones.
+•	☐ Hacer visible todo el trabajo y mantener la carga dentro de la capacidad del equipo.
+•	☐ Pasar del comando y control al liderazgo servidor: facilitar decisiones, remover impedimentos y escalar los organizacionales.
+•	☐ Equilibrar el triunvirato PO–AO–team lead: producto correcto, bien construido y a tiempo.
+Gobierno y reportes
+•	☐ Reemplazar las compuertas documentales por los seis hitos basados en riesgo.
+•	☐ Automatizar los reportes con tableros en lugar de informes manuales.
+•	☐ Usar la viabilidad continua como checkpoint, pero preferir liberar más seguido.
+•	☐ Definir el cierre por beneficios logrados (stakeholders encantados), no solo por despliegue.
+Mejora continua
+•	☐ En cada retrospectiva, consultar el diagrama del objetivo con problemas en el DA Browser.
+•	☐ Correr experimentos PDSA con métricas claras (GQM u OKR) y compartir lo aprendido.
+•	☐ Revisar cada pocos meses si el equipo está listo para evolucionar de ciclo de vida.
+Riesgos a evitar: imponer un marco único a todos los equipos, asignar tareas individualmente, esperar mejoras milagrosas y eliminar de golpe los roles tradicionales.
+Fuente
+•	Scott W. Ambler y Mark Lines, Choose Your WoW! A Disciplined Agile Approach to Optimizing Your Way of Working, 2.ª ed., Project Management Institute, 2022 (ISBN 978-1-62825-754-0). Prólogo de Jonathan Smart.
+•	Recursos citados por el libro: diagramas de objetivos en PMI.org/disciplined-agile y detalles de opciones en el DA Browser (PMI.org/disciplined-agile/da-browser).
+Este resumen parafrasea el contenido para uso personal; es constancia de mis lecturas de formacin profesional
+
