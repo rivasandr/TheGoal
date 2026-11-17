@@ -212,3 +212,28 @@ Adicionalmente los resultados se revisaron con operadores y mantenedores, y el p
 Sin resultado medido: no compara fallos, paradas ni costes antes y después del nuevo plan.
 Nivel de madurez bajo: en la escala del capítulo 13, el método se sitúa en el nivel de estadística de fiabilidad. El propio autor reconoce que el RCM es estático.
 
+Capítulo 19: 17/11/26 1hora “¿Quemando activos? Diseño de estrategias de leña y carbón en Mozambique: 2MBio, un modelo participativo para promover la creatividad y el conocimiento como activos estratégicos” (Martins, CEG-IST, Portugal)
+
+En Mozambique, la leña y el carbón vegetal representan más del 77 % del consumo energético. Son el combustible de casi todos los hogares, y en torno a ellos funciona una red informal de unos tres millones de personas. Están ligados a la deforestación, a la contaminación dentro de las viviendas, a las desigualdades de género y a la pobreza rural. El autor critica el enfoque dominante, que llama “paradigma de transición energética”: políticas de arriba abajo que califican la leña de “atrasada” e imponen tecnologías “modernas”, apoyadas en modelos de optimización que suponen actores racionales y homogéneos. Ese enfoque ha dado pocos resultados. Las alternativas participativas existentes no son específicas del sector y suelen requerir computadoras, inaccesibles para usuarios con poca alfabetización.
+
+Su propuesta, 2MBio, es una plantilla en papel con 13 elementos de diseño, inspirada en el Business Model Canvas. En talleres participativos, carboneros, campesinos, expertos y funcionarios la rellenan con texto o dibujos para diseñar estrategias. Para construirla usó más de 200 fuentes y 150 entrevistas, y la probó en siete talleres con unos 90 participantes. Según el autor, los diseños en grupo resultaron más completos, más originales y más interconectados que los individuales, y en un cuestionario a 19 participantes la valoración osciló entre el 78 % y el 91 %. La plantilla rellenada se convierte en sí misma en un activo reutilizable.
+
+
+Es el capítulo con la participación más profunda del libro respecto de gestion de stakeholders, incluidos actores habitualmente excluidos como los carboneros, las mujeres o la población rural.
+El investigador se adapta al contexto; la herramienta se ajusta a la realidad local en lugar de imponer un método estándar, y aplica pensamiento de diseño en la fase conceptual.
+Decidir temprano, es el mantra agile!: el autor recuerda que la fase conceptual cuesta cerca del 5 % y condiciona entre el 85 % y el 95 % del resultado, la misma lógica de los capítulos 6 y 12.
+Conocimiento tácito: el conocimiento de los participantes se trata como activo, conectando con el capítulo 5.
+
+
+Capítulo 20:17/11/2026 1 hora  “Problemas de No Fault Found en la gestión de activos” (Khan, Universidad de Coventry)
+
+En aeronáutica y defensa se registra un fallo, se cambia el componente sospechoso y, al probarlo en taller, funciona bien. El problema persiste o reaparece. A esto se le llama No Fault Found (NFF): un fallo cuya causa raíz no se encuentra. Ocurre en tres niveles (equipo, tarjeta y componente) y no existe una definición ni un estándar común, ni siquiera entre investigadores.
+
+El autor separa las causas raíz (pruebas mal diseñadas, reportes de fallo ambiguos, procesos mal aplicados, documentación incompleta) de los factores que las agravan: mala comunicación entre turnos y expertos, atajos de los técnicos, la cultura de “siempre lo hemos hecho así” y, sobre todo, la presión por devolver el avión al servicio. La dirección no ve el coste porque nadie lo mide, y por eso el NFF nunca se prioriza. La responsabilidad se diluye y aparece una cultura de culpa. Llegan a darse incentivos perversos: técnicos que dañan piezas a propósito para no pagar el cargo por devolver una unidad sin fallo. Las buenas prácticas existentes, como ARINC 672 o el proyecto REMM, apenas se han adoptado. El capítulo cierra con una tabla de factores que facilitan o frenan la decisión y un esbozo de mapas de proceso con redes de Petri entre operador, fabricante y proveedor.
+
+
+Responsabilidad: retoma tu crítica del capítulo 3. Cuando nadie es responsable de la causa raíz, cada nivel resuelve lo suyo y el problema sigue circulando por la cadena de suministro.
+Lo que no se mide no se gestiona: sin un indicador de coste del NFF, la dirección no asigna recursos. Es la lógica de los indicadores del capítulo 9 y del coste de la mala calidad.
+Contratos e incentivos: los cargos por unidades devueltas sin fallo generan comportamientos indeseados. Es el mismo problema de incentivos mal diseñados de las concesiones del capítulo 12.
+Lecciones aprendidas: la propuesta de guardar la experiencia de diagnóstico y entregarla cuando reaparece el síntoma es gestión del conocimiento del proyecto (capítulo 5).
+Diseñar pensando en el diagnóstico: el autor pide incorporar estos requisitos desde el inicio del proyecto, como en los capítulos 6 y 7.
